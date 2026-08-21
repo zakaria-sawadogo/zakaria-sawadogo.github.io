@@ -8,9 +8,10 @@ import settings from "@/data/settings.json";
 export function SiteFooter() {
   return (
     <footer className="border-t border-[var(--line)] bg-[var(--panel)]">
+      <div className="gradient-bar h-[3px] w-full" />
       <Container className="grid gap-10 py-12 lg:grid-cols-[1.2fr_1fr_1fr]">
         <div>
-          <h2 className="text-2xl font-bold text-[var(--ink)]">{profile.name}</h2>
+          <h2 className="font-serif text-2xl font-bold text-[var(--ink)]">{profile.name}</h2>
           <p className="mt-3 max-w-md leading-7 text-[var(--muted)]">{profile.shortBio}</p>
           <Button className="mt-5" href="/contact" variant="secondary">
             <Mail size={17} /> Contact

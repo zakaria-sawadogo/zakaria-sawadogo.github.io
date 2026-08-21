@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import "@fontsource-variable/fraunces/wght.css";
 import "@/styles/globals.css";
 import { ThemeProvider } from "@/components/layout/theme-provider";
 import { SiteHeader } from "@/components/layout/site-header";

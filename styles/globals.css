@@ -1,5 +1,9 @@
 @import "tailwindcss";
 
+@theme {
+  --font-serif: "Fraunces Variable", ui-serif, Georgia, "Times New Roman", serif;
+}
+
 :root {
   color-scheme: light;
   --background: #fbfbf8;
@@ -93,4 +97,28 @@ select {
   font-size: 0.76rem;
   font-weight: 800;
   letter-spacing: 0.08em;
+}
+
+.gradient-bar {
+  background: linear-gradient(90deg, var(--brand), var(--accent));
+}
+
+.nav-underline {
+  position: relative;
+}
+
+.nav-underline::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  height: 2px;
+  width: 0;
+  background: linear-gradient(90deg, var(--brand), var(--accent));
+  transition: width 0.25s ease;
+}
+
+.nav-underline:hover::after,
+.nav-underline:focus-visible::after {
+  width: 100%;
 }

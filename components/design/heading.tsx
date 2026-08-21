@@ -13,8 +13,13 @@ export function Heading({
 }) {
   return (
     <div className={cn("mb-10 max-w-3xl", className)}>
-      {eyebrow ? <p className="mb-3 text-sm font-bold uppercase tracking-[0.18em] text-[var(--brand)]">{eyebrow}</p> : null}
-      <h1 className="text-3xl font-bold leading-tight text-[var(--ink)] sm:text-4xl lg:text-5xl">{title}</h1>
+      {eyebrow ? (
+        <p className="mb-3 flex items-center gap-2.5 text-sm font-bold uppercase tracking-[0.18em] text-[var(--brand)]">
+          <span className="gradient-bar h-px w-8 shrink-0" />
+          {eyebrow}
+        </p>
+      ) : null}
+      <h1 className="font-serif text-3xl font-bold leading-tight text-[var(--ink)] sm:text-4xl lg:text-5xl">{title}</h1>
       {text ? <p className="mt-4 whitespace-pre-line text-base leading-8 text-[var(--muted)] sm:text-lg">{text}</p> : null}
     </div>
   );

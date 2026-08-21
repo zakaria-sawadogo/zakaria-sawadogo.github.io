@@ -15,18 +15,19 @@ export function SiteHeader() {
 
   return (
     <header className="sticky top-0 z-40 border-b border-[var(--line)] bg-[var(--background)]/95 backdrop-blur">
+      <div className="gradient-bar h-[3px] w-full" />
       <Container className="flex min-h-14 items-center justify-between gap-4">
         <Link href="/" className="font-serif text-lg font-bold tracking-normal text-[var(--ink)]">
           Dr Zakaria Sawadogo
         </Link>
         <nav className="hidden items-center gap-4 lg:flex">
           {settings.navigation.map((item) => (
-            <Link className="text-[13px] font-semibold text-[var(--muted)] transition hover:text-[var(--foreground)]" href={item.href} key={item.href}>
+            <Link className="nav-underline text-[13px] font-semibold text-[var(--muted)] transition hover:text-[var(--foreground)]" href={item.href} key={item.href}>
               {item.label}
             </Link>
           ))}
           {adminEnabled ? (
-            <Link className="text-[13px] font-semibold text-[var(--muted)] transition hover:text-[var(--foreground)]" href="/admin">
+            <Link className="nav-underline text-[13px] font-semibold text-[var(--muted)] transition hover:text-[var(--foreground)]" href="/admin">
               Admin
             </Link>
           ) : null}

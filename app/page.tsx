@@ -5,6 +5,7 @@ import { Container } from "@/components/design/container";
 import { Card } from "@/components/design/card";
 import { Badge } from "@/components/design/badge";
 import { Button } from "@/components/design/button";
+import { Reveal } from "@/components/public/reveal";
 import research from "@/data/research.json";
 import publications from "@/data/publications.json";
 import projects from "@/data/projects.json";
@@ -28,9 +29,12 @@ export default function HomePage() {
 
   return (
     <Container className="py-10 lg:py-14">
-      <section className="grid gap-10 border-b border-[var(--line)] pb-10 lg:grid-cols-[320px_1fr]">
+      <section className="academic-grid relative grid gap-10 border-b border-[var(--line)] pb-10 lg:grid-cols-[320px_1fr]">
         <aside className="lg:sticky lg:top-20 lg:self-start">
-          <div className="overflow-hidden rounded-md border border-[var(--line)] bg-[var(--panel)]">
+          <div
+            className="overflow-hidden rounded-md border border-[var(--line)] bg-[var(--panel)]"
+            style={{ boxShadow: "0 24px 60px -24px color-mix(in srgb, var(--brand) 45%, transparent)" }}
+          >
             <Image
               src={withBasePath(profile.photo)}
               alt={profile.name}
@@ -108,117 +112,147 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section className="grid gap-10 border-b border-[var(--line)] py-10 lg:grid-cols-[0.85fr_1fr]">
-        <div>
-          <h2 className="font-serif text-2xl font-bold text-[var(--ink)]">Research interests</h2>
-          <ul className="mt-5 grid gap-3">
-            {research.map((item) => (
-              <li className="rounded-md border border-[var(--line)] bg-[var(--panel)] p-4" key={item.slug}>
-                <p className="font-bold text-[var(--ink)]">{item.area}</p>
-                <p className="mt-2 text-sm leading-7 text-[var(--muted)]">{item.description}</p>
-              </li>
-            ))}
-          </ul>
-        </div>
-
-        <div>
-          <h2 className="font-serif text-2xl font-bold text-[var(--ink)]">Current work</h2>
-          <div className="mt-5 grid gap-4 sm:grid-cols-2">
-            {featuredProjects.map((project) => (
-              <Card className="p-5" key={project.title}>
-                <h3 className="font-bold text-[var(--ink)]">{project.title}</h3>
-                <p className="mt-3 text-sm leading-7 text-[var(--muted)]">{project.description}</p>
-                <Link href="/projects" className="academic-link mt-4 inline-flex text-sm">
-                  View project
-                </Link>
-              </Card>
-            ))}
+      <Reveal>
+        <section className="grid gap-10 border-b border-[var(--line)] py-10 lg:grid-cols-[0.85fr_1fr]">
+          <div>
+            <h2 className="flex items-center gap-3 font-serif text-2xl font-bold text-[var(--ink)]">
+              <span className="gradient-bar h-px w-8 shrink-0" />
+              <span className="font-mono text-xs font-bold tracking-[0.12em] text-[var(--brand)]">01</span>
+              Research interests
+            </h2>
+            <ul className="mt-5 grid gap-3">
+              {research.map((item) => (
+                <li className="rounded-md border border-[var(--line)] bg-[var(--panel)] p-4" key={item.slug}>
+                  <p className="font-bold text-[var(--ink)]">{item.area}</p>
+                  <p className="mt-2 text-sm leading-7 text-[var(--muted)]">{item.description}</p>
+                </li>
+              ))}
+            </ul>
           </div>
-        </div>
-      </section>
 
-      <section className="grid gap-10 py-10 lg:grid-cols-[1fr_320px]">
-        <div>
-          <div className="mb-5 flex items-end justify-between gap-4 border-b border-[var(--line)] pb-3">
-            <h2 className="font-serif text-2xl font-bold text-[var(--ink)]">Selected Recent Publications</h2>
-            <Link href="/publications" className="academic-link text-sm">All publications</Link>
-          </div>
-          <ol className="paper-list grid gap-5">
-            {selectedPublications.map((item) => (
-                <li className="grid grid-cols-[34px_1fr] gap-3" key={item.title}>
-                <div>
-                  <Link href={item.pdf || "/publications"} className="academic-link text-base">{item.title}</Link>
-                  <p className="mt-1 text-sm text-[var(--muted)]">{item.authors}</p>
-                  <p className="mt-1 text-sm text-[var(--muted)]">
-                    <strong className="text-[var(--foreground)]">{item.venue}</strong>, {item.year}. DOI: {item.doi}
-                  </p>
-                  <div className="mt-2 flex flex-wrap gap-2">
-                    {item.tags.slice(0, 3).map((tag) => <Badge key={tag}>{tag}</Badge>)}
-                    <Badge>{item.citations} citations</Badge>
-                  </div>
-                </div>
-              </li>
-            ))}
-          </ol>
-        </div>
-
-        <aside className="grid gap-5">
-          <Card>
-            <h2 className="mb-4 text-lg font-bold">Open focus</h2>
-            <p className="text-sm leading-7 text-[var(--muted)]">
-              Students interested in AI, cybersecurity, Android malware, privacy, and data systems are welcome to send a concise research statement.
-            </p>
-            <Button href="/contact" variant="secondary" className="mt-4">Contact</Button>
-          </Card>
-          <Card>
-            <h2 className="mb-4 text-lg font-bold">Current projects</h2>
-            <div className="grid gap-3">
+          <div>
+            <h2 className="flex items-center gap-3 font-serif text-2xl font-bold text-[var(--ink)]">
+              <span className="gradient-bar h-px w-8 shrink-0" />
+              <span className="font-mono text-xs font-bold tracking-[0.12em] text-[var(--brand)]">02</span>
+              Current work
+            </h2>
+            <div className="mt-5 grid gap-4 sm:grid-cols-2">
               {featuredProjects.map((project) => (
-                <Link href="/projects" className="academic-link text-sm" key={project.title}>{project.title}</Link>
+                <Card className="p-5" key={project.title}>
+                  <h3 className="font-bold text-[var(--ink)]">{project.title}</h3>
+                  <p className="mt-3 text-sm leading-7 text-[var(--muted)]">{project.description}</p>
+                  <Link href="/projects" className="academic-link mt-4 inline-flex text-sm">
+                    View project
+                  </Link>
+                </Card>
               ))}
             </div>
-          </Card>
-          <Card>
-            <h2 className="mb-4 text-lg font-bold">Service & recognition</h2>
-            <ul className="space-y-2 text-sm text-[var(--muted)]">
-              {selectedServices.map((item) => <li key={item}>{item}</li>)}
-            </ul>
-          </Card>
-        </aside>
-      </section>
+          </div>
+        </section>
+      </Reveal>
 
-      <section className="grid gap-6 border-t border-[var(--line)] py-10 md:grid-cols-3">
-        <div>
-          <h2 className="font-serif text-2xl font-bold">Experience</h2>
-          <ul className="mt-4 space-y-3 text-sm text-[var(--muted)]">
-            {latestExperience.map((item) => (
-              <li key={item.role}>
-                <strong className="text-[var(--foreground)]">{item.role}</strong>, {item.organization} ({item.start}-{item.end})
-              </li>
-            ))}
-          </ul>
-        </div>
-        <div>
-          <h2 className="font-serif text-2xl font-bold">Education</h2>
-          <ul className="mt-4 space-y-3 text-sm text-[var(--muted)]">
-            {education.map((item) => (
-              <li key={item.degree}>
-                <strong className="text-[var(--foreground)]">{item.degree}</strong>, {item.institution} ({item.year})
-              </li>
-            ))}
-          </ul>
-        </div>
-        <div>
-          <h2 className="font-serif text-2xl font-bold">Funding</h2>
-          <ul className="mt-4 space-y-3 text-sm text-[var(--muted)]">
-            {grants.map((item) => (
-              <li key={item.title}>
-                <strong className="text-[var(--foreground)]">{item.title}</strong>, {item.period}
-              </li>
-            ))}
-          </ul>
-        </div>
-      </section>
+      <Reveal>
+        <section className="grid gap-10 py-10 lg:grid-cols-[1fr_320px]">
+          <div>
+            <div className="mb-5 flex items-end justify-between gap-4 border-b border-[var(--line)] pb-3">
+              <h2 className="flex items-center gap-3 font-serif text-2xl font-bold text-[var(--ink)]">
+                <span className="gradient-bar h-px w-8 shrink-0" />
+                <span className="font-mono text-xs font-bold tracking-[0.12em] text-[var(--brand)]">03</span>
+                Selected Recent Publications
+              </h2>
+              <Link href="/publications" className="academic-link text-sm">All publications</Link>
+            </div>
+            <ol className="paper-list grid gap-5">
+              {selectedPublications.map((item) => (
+                  <li className="grid grid-cols-[34px_1fr] gap-3" key={item.title}>
+                  <div>
+                    <Link href={item.pdf || "/publications"} className="academic-link text-base">{item.title}</Link>
+                    <p className="mt-1 text-sm text-[var(--muted)]">{item.authors}</p>
+                    <p className="mt-1 text-sm text-[var(--muted)]">
+                      <strong className="text-[var(--foreground)]">{item.venue}</strong>, {item.year}. DOI: {item.doi}
+                    </p>
+                    <div className="mt-2 flex flex-wrap gap-2">
+                      {item.tags.slice(0, 3).map((tag) => <Badge key={tag}>{tag}</Badge>)}
+                      <Badge>{item.citations} citations</Badge>
+                    </div>
+                  </div>
+                </li>
+              ))}
+            </ol>
+          </div>
+
+          <aside className="grid gap-5">
+            <Card>
+              <h2 className="mb-4 text-lg font-bold">Open focus</h2>
+              <p className="text-sm leading-7 text-[var(--muted)]">
+                Students interested in AI, cybersecurity, Android malware, privacy, and data systems are welcome to send a concise research statement.
+              </p>
+              <Button href="/contact" variant="secondary" className="mt-4">Contact</Button>
+            </Card>
+            <Card>
+              <h2 className="mb-4 text-lg font-bold">Current projects</h2>
+              <div className="grid gap-3">
+                {featuredProjects.map((project) => (
+                  <Link href="/projects" className="academic-link text-sm" key={project.title}>{project.title}</Link>
+                ))}
+              </div>
+            </Card>
+            <Card>
+              <h2 className="mb-4 text-lg font-bold">Service & recognition</h2>
+              <ul className="space-y-2 text-sm text-[var(--muted)]">
+                {selectedServices.map((item) => <li key={item}>{item}</li>)}
+              </ul>
+            </Card>
+          </aside>
+        </section>
+      </Reveal>
+
+      <Reveal>
+        <section className="grid gap-6 border-t border-[var(--line)] py-10 md:grid-cols-3">
+          <div>
+            <h2 className="flex items-center gap-3 font-serif text-2xl font-bold">
+              <span className="gradient-bar h-px w-8 shrink-0" />
+              <span className="font-mono text-xs font-bold tracking-[0.12em] text-[var(--brand)]">04</span>
+              Experience
+            </h2>
+            <ul className="mt-4 space-y-3 text-sm text-[var(--muted)]">
+              {latestExperience.map((item) => (
+                <li key={item.role}>
+                  <strong className="text-[var(--foreground)]">{item.role}</strong>, {item.organization} ({item.start}-{item.end})
+                </li>
+              ))}
+            </ul>
+          </div>
+          <div>
+            <h2 className="flex items-center gap-3 font-serif text-2xl font-bold">
+              <span className="gradient-bar h-px w-8 shrink-0" />
+              <span className="font-mono text-xs font-bold tracking-[0.12em] text-[var(--brand)]">05</span>
+              Education
+            </h2>
+            <ul className="mt-4 space-y-3 text-sm text-[var(--muted)]">
+              {education.map((item) => (
+                <li key={item.degree}>
+                  <strong className="text-[var(--foreground)]">{item.degree}</strong>, {item.institution} ({item.year})
+                </li>
+              ))}
+            </ul>
+          </div>
+          <div>
+            <h2 className="flex items-center gap-3 font-serif text-2xl font-bold">
+              <span className="gradient-bar h-px w-8 shrink-0" />
+              <span className="font-mono text-xs font-bold tracking-[0.12em] text-[var(--brand)]">06</span>
+              Funding
+            </h2>
+            <ul className="mt-4 space-y-3 text-sm text-[var(--muted)]">
+              {grants.map((item) => (
+                <li key={item.title}>
+                  <strong className="text-[var(--foreground)]">{item.title}</strong>, {item.period}
+                </li>
+              ))}
+            </ul>
+          </div>
+        </section>
+      </Reveal>
     </Container>
   );
 }
