@@ -35,7 +35,7 @@
     "title": "Master Sécurité Informatique — full program",
     "level": "Master",
     "semester": "Full Year",
-    "description": "9-course program: C programming, security auditing, cryptanalysis, IT governance and risk management, applied AI for security, cryptography, blockchain technology, security by design, and application security. Full lecture notes, slide decks, and lab assignments for every course, published as a dedicated site.",
+    "description": "11-course program: C programming, security auditing, cryptanalysis, IT governance and risk management, applied AI for security, cryptography, blockchain technology, security by design, application security, web services, and malware analysis and data security. Full lecture notes, slide decks, and lab assignments for every course, published as a dedicated site.",
     "materials": [
       "https://zakaria-sawadogo.github.io/cours-securite-informatique/"
     ]
