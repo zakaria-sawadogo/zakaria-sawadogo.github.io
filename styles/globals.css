@@ -99,6 +99,14 @@ select {
   letter-spacing: 0.08em;
 }
 
+.paper-list > li {
+  transition: background-color 0.2s ease;
+}
+
+.paper-list > li:hover {
+  background-color: color-mix(in srgb, var(--brand) 5%, transparent);
+}
+
 .gradient-bar {
   background: linear-gradient(90deg, var(--brand), var(--accent));
 }
@@ -121,4 +129,72 @@ select {
 .nav-underline:hover::after,
 .nav-underline:focus-visible::after {
   width: 100%;
+}
+
+.sheen {
+  position: relative;
+  overflow: hidden;
+}
+
+.sheen::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -60%;
+  height: 100%;
+  width: 40%;
+  background: linear-gradient(115deg, transparent, rgba(255, 255, 255, 0.35), transparent);
+  transform: skewX(-20deg);
+  transition: left 0.6s ease;
+  pointer-events: none;
+}
+
+.sheen:hover::after {
+  left: 130%;
+}
+
+.card-spotlight::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  background: radial-gradient(240px circle at var(--spot-x, 50%) var(--spot-y, 50%), color-mix(in srgb, var(--brand) 14%, transparent), transparent 70%);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.card-spotlight:hover::before {
+  opacity: 1;
+}
+
+.cursor-dot {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 16px;
+  height: 16px;
+  border-radius: 9999px;
+  border: 1.5px solid var(--brand);
+  background: color-mix(in srgb, var(--brand) 15%, transparent);
+  pointer-events: none;
+  z-index: 60;
+  opacity: 0;
+  transition: opacity 0.3s ease, width 0.2s ease, height 0.2s ease, background 0.2s ease;
+  will-change: transform;
+}
+
+.cursor-dot--visible {
+  opacity: 1;
+}
+
+.cursor-dot--active {
+  width: 36px;
+  height: 36px;
+  background: color-mix(in srgb, var(--brand) 25%, transparent);
+}
+
+@media (pointer: coarse) {
+  .cursor-dot {
+    display: none;
+  }
 }

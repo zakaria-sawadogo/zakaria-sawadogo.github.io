@@ -2,7 +2,8 @@
 
 import Link from "next/link";
 import { Menu, X } from "lucide-react";
-import { useState } from "react";
+import { useEffect, useState } from "react";
+import { usePathname } from "next/navigation";
 import { Container } from "@/components/design/container";
 import { ThemeToggle } from "@/components/layout/theme-toggle";
 import { LanguageToggle } from "@/components/layout/language-toggle";
@@ -11,11 +12,33 @@ import { isAdminEnabled } from "@/lib/paths";
 
 export function SiteHeader() {
   const [open, setOpen] = useState(false);
+  const [progress, setProgress] = useState(0);
   const adminEnabled = isAdminEnabled();
+  const pathname = usePathname();
+
+  useEffect(() => {
+    function onScroll() {
+      const doc = document.documentElement;
+      const scrollable = doc.scrollHeight - doc.clientHeight;
+      setProgress(scrollable > 0 ? Math.min(1, Math.max(0, doc.scrollTop / scrollable)) : 0);
+    }
+    onScroll();
+    window.addEventListener("scroll", onScroll, { passive: true });
+    window.addEventListener("resize", onScroll);
+    return () => {
+      window.removeEventListener("scroll", onScroll);
+      window.removeEventListener("resize", onScroll);
+    };
+  }, [pathname]);
 
   return (
     <header className="sticky top-0 z-40 border-b border-[var(--line)] bg-[var(--background)]/95 backdrop-blur">
-      <div className="gradient-bar h-[3px] w-full" />
+      <div className="relative h-[3px] w-full bg-[var(--line)]/40">
+        <div
+          className="gradient-bar absolute inset-y-0 left-0"
+          style={{ width: `${progress * 100}%`, transition: "width 0.1s linear" }}
+        />
+      </div>
       <Container className="flex min-h-14 items-center justify-between gap-4">
         <Link href="/" className="font-serif text-lg font-bold tracking-normal text-[var(--ink)]">
           Dr Zakaria Sawadogo

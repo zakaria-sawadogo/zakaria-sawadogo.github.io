@@ -2,9 +2,11 @@ import type { Metadata } from "next";
 import "@fontsource-variable/fraunces/wght.css";
 import "@/styles/globals.css";
 import { ThemeProvider } from "@/components/layout/theme-provider";
+import { MotionProvider } from "@/components/layout/motion-provider";
 import { SiteHeader } from "@/components/layout/site-header";
 import { SiteFooter } from "@/components/layout/site-footer";
 import { LanguageRuntime } from "@/components/layout/language-runtime";
+import { CursorFollower } from "@/components/layout/cursor-follower";
 import settings from "@/data/settings.json";
 
 export const metadata: Metadata = {
@@ -50,10 +52,13 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
     <html lang="en" suppressHydrationWarning>
       <body>
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
-          <SiteHeader />
-          <main>{children}</main>
-          <SiteFooter />
-          <LanguageRuntime />
+          <MotionProvider>
+            <SiteHeader />
+            <main>{children}</main>
+            <SiteFooter />
+            <LanguageRuntime />
+            <CursorFollower />
+          </MotionProvider>
         </ThemeProvider>
         <script
           type="application/ld+json"
