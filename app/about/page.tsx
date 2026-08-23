@@ -15,11 +15,7 @@ export const metadata = { title: "About" };
 export default function AboutPage() {
   return (
     <Section>
-      <Heading
-        eyebrow="About"
-        title="Biography, academic path, and responsibilities"
-        text="A concise view of the academic profile, research trajectory, teaching activity, and institutional engagement."
-      />
+      <Heading eyebrow="About" title="Biography" />
 
       <div className="grid gap-8 lg:grid-cols-[1.1fr_0.72fr]">
         <div className="space-y-8">
