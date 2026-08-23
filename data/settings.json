@@ -1,5 +1,5 @@
 {
-  "siteUrl": "https://example.github.io/zakaria-sawadogo",
+  "siteUrl": "https://zakaria-sawadogo.github.io/zs",
   "seo": {
     "name": "Dr Zakaria Sawadogo",
     "title": "Dr Zakaria Sawadogo | AI, Cybersecurity & Data Science",
@@ -7,7 +7,8 @@
     "keywords": ["Artificial Intelligence", "Cybersecurity", "Data Science", "Android Malware", "Privacy", "Digital Transformation"]
   },
   "navigation": [
-    { "label": "About", "href": "/about" },
+    { "label": "Home", "href": "/" },
+    { "label": "Biography", "href": "/about" },
     { "label": "Research", "href": "/research" },
     { "label": "Publications", "href": "/publications" },
     { "label": "Projects", "href": "/projects" },

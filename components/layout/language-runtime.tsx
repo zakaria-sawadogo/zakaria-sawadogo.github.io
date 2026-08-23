@@ -3,6 +3,7 @@
 import { useEffect } from "react";
 
 const dictionary: Record<string, string> = {
+  "Home": "Accueil",
   "About": "À propos",
   "Research": "Recherche",
   "Publications": "Publications",
