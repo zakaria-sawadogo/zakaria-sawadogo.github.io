@@ -51,6 +51,7 @@ const dictionary: Record<string, string> = {
   "Computer science, artificial intelligence, cybersecurity, and software engineering.": "Informatique, intelligence artificielle, cybersécurité et génie logiciel.",
   "Digital governance, Internet development, cybersecurity initiatives, and collaborations.": "Gouvernance numérique, développement de l’Internet, initiatives en cybersécurité et collaborations.",
   "Service": "Engagement",
+  "Reviewer": "Évaluateur",
   "Academic Path": "Parcours académique",
   "Professional Experience": "Expérience professionnelle",
   "Affiliation": "Affiliation",

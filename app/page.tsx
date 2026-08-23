@@ -9,6 +9,7 @@ import research from "@/data/research.json";
 import projects from "@/data/projects.json";
 import profile from "@/data/profile.json";
 import social from "@/data/social.json";
+import service from "@/data/service.json";
 import { withBasePath } from "@/lib/paths";
 
 export default function HomePage() {
@@ -135,6 +136,26 @@ export default function HomePage() {
               ))}
             </div>
           </div>
+        </section>
+      </Reveal>
+
+      <Reveal>
+        <section className="border-t border-[var(--line)] py-10">
+          <h2 className="flex items-center gap-3 font-serif text-2xl font-bold text-[var(--ink)]">
+            <span className="gradient-bar h-px w-8 shrink-0" />
+            <span className="font-mono text-xs font-bold tracking-[0.12em] text-[var(--brand)]">03</span>
+            Service
+          </h2>
+          <ul className="mt-5 grid gap-3 sm:grid-cols-2">
+            {service.map((item) => (
+              <li className="rounded-md border border-[var(--line)] bg-[var(--panel)] p-4" key={item.event}>
+                <p className="font-bold text-[var(--ink)]">
+                  {item.role}, <Link href={item.url} className="academic-link">{item.event}</Link>
+                </p>
+                <p className="mt-2 text-sm text-[var(--muted)]">{item.years}</p>
+              </li>
+            ))}
+          </ul>
         </section>
       </Reveal>
     </Container>
