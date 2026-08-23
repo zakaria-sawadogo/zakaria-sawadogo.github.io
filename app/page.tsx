@@ -29,7 +29,7 @@ export default function HomePage() {
               width={720}
               height={720}
               priority
-              className="aspect-square w-full object-cover"
+              className="aspect-square w-full object-cover object-[25%_center]"
             />
           </div>
           <div className="mt-5 rounded-md border border-[var(--line)] bg-[var(--panel)] p-5">
