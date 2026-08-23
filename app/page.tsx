@@ -26,10 +26,10 @@ export default function HomePage() {
             <Image
               src={withBasePath(profile.photo)}
               alt={profile.name}
-              width={720}
-              height={720}
+              width={350}
+              height={350}
               priority
-              className="aspect-square w-full object-cover object-[25%_center]"
+              className="aspect-square w-full object-cover"
             />
           </div>
           <div className="mt-5 rounded-md border border-[var(--line)] bg-[var(--panel)] p-5">

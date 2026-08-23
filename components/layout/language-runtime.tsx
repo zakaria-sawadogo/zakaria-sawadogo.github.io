@@ -52,6 +52,7 @@ const dictionary: Record<string, string> = {
   "Digital governance, Internet development, cybersecurity initiatives, and collaborations.": "Gouvernance numérique, développement de l’Internet, initiatives en cybersécurité et collaborations.",
   "Service": "Engagement",
   "Reviewer": "Évaluateur",
+  "Organizing Committee Member": "Membre du comité d'organisation",
   "Academic Path": "Parcours académique",
   "Professional Experience": "Expérience professionnelle",
   "Affiliation": "Affiliation",
