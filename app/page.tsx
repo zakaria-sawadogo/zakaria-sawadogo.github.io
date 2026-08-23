@@ -70,6 +70,9 @@ export default function HomePage() {
             <Button href={profile.cvUrl}>
               CV
             </Button>
+            <Button href="https://lefaso.net/spip.php?article148752" variant="secondary">
+              Les médias en parlent
+            </Button>
           </div>
 
           <div className="mt-9 grid gap-3 sm:grid-cols-4">

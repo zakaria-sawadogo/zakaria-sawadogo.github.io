@@ -9,7 +9,7 @@ type Props = ButtonHTMLAttributes<HTMLButtonElement> & {
 };
 
 const variants = {
-  primary: "bg-[var(--brand)] text-white shadow-lg shadow-teal-900/10 hover:bg-[var(--brand-dark)]",
+  primary: "bg-[var(--brand)] text-[var(--brand-foreground)] shadow-lg shadow-teal-900/10 hover:bg-[var(--brand-dark)]",
   secondary: "border border-[var(--line)] bg-[var(--panel)] text-[var(--foreground)] hover:border-[var(--brand)]",
   ghost: "text-[var(--foreground)] hover:bg-black/5 dark:hover:bg-white/10"
 };
