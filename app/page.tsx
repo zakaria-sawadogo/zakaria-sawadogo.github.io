@@ -19,16 +19,16 @@ export default function HomePage() {
       <section className="academic-grid relative grid gap-10 border-b border-[var(--line)] pb-10 lg:grid-cols-[320px_1fr]">
         <aside className="lg:sticky lg:top-20 lg:self-start">
           <div
-            className="overflow-hidden rounded-md border border-[var(--line)] bg-[var(--panel)]"
+            className="mx-auto w-full max-w-[280px] overflow-hidden rounded-full border border-[var(--line)] bg-[var(--panel)]"
             style={{ boxShadow: "0 24px 60px -24px color-mix(in srgb, var(--brand) 45%, transparent)" }}
           >
             <Image
               src={withBasePath(profile.photo)}
               alt={profile.name}
               width={720}
-              height={900}
+              height={720}
               priority
-              className="aspect-[4/5] w-full object-cover"
+              className="aspect-square w-full object-cover"
             />
           </div>
           <div className="mt-5 rounded-md border border-[var(--line)] bg-[var(--panel)] p-5">
