@@ -1,53 +1,23 @@
 [
   {
-    "area": "Artificial Intelligence",
-    "slug": "artificial-intelligence",
-    "image": "/images/research-ai.svg",
-    "description": "Learning systems for prediction, decision support, automation, and responsible deployment in African contexts.",
-    "technologies": ["Machine Learning", "Deep Learning", "MLOps", "Responsible AI"],
-    "projects": ["AI Decision Support for Public Services"],
-    "publications": ["Privacy-Aware Learning for Digital Public Services"]
+    "area": "Cybersecurity & Privacy",
+    "slug": "cybersecurity-privacy",
+    "description": "Threat detection, secure software engineering, Android malware analysis, and privacy-aware data systems that keep digital infrastructures resilient and trustworthy.",
+    "technologies": ["Security Analytics", "Threat Modeling", "Secure Coding", "Android Malware Analysis", "Reverse Engineering", "Privacy Engineering", "Data Governance", "Federated Learning"],
+    "projects": ["National Cybersecurity Capacity Toolkit", "Android Malware Intelligence Platform", "Privacy-First Data Exchange"],
+    "publications": ["Machine Learning for Lightweight Intrusion Detection", "Graph-Based Android Malware Classification", "Privacy-Aware Learning for Digital Public Services"]
   },
   {
-    "area": "Cybersecurity",
-    "slug": "cybersecurity",
-    "image": "/images/research-security.svg",
-    "description": "Threat detection, secure software engineering, security analytics, and resilient digital infrastructures.",
-    "technologies": ["Security Analytics", "Threat Modeling", "SIEM", "Secure Coding"],
-    "projects": ["National Cybersecurity Capacity Toolkit"],
-    "publications": ["Machine Learning for Lightweight Intrusion Detection"]
-  },
-  {
-    "area": "Android Malware",
-    "slug": "android-malware",
-    "image": "/images/research-mobile.svg",
-    "description": "Static and dynamic analysis methods for detecting malicious behavior in mobile applications.",
-    "technologies": ["Android", "Malware Analysis", "Reverse Engineering", "Graph Learning"],
-    "projects": ["Android Malware Intelligence Platform"],
-    "publications": ["Graph-Based Android Malware Classification"]
-  },
-  {
-    "area": "Privacy",
-    "slug": "privacy",
-    "image": "/images/research-privacy.svg",
-    "description": "Privacy-aware data pipelines, governance models, and security controls for sensitive systems.",
-    "technologies": ["Privacy Engineering", "Data Governance", "Federated Learning"],
-    "projects": ["Privacy-First Data Exchange"],
-    "publications": ["Privacy-Aware Learning for Digital Public Services"]
-  },
-  {
-    "area": "Data Science",
-    "slug": "data-science",
-    "image": "/images/research-data.svg",
-    "description": "Applied analytics, forecasting, dashboards, and data platforms for education, health, and administration.",
-    "technologies": ["Python", "Pandas", "Visualization", "Forecasting"],
-    "projects": ["Education Analytics Observatory"],
+    "area": "Artificial Intelligence & Data Science",
+    "slug": "artificial-intelligence-data-science",
+    "description": "Learning systems for prediction, decision support, and automation, paired with applied analytics, forecasting, and data platforms for education, health, and administration.",
+    "technologies": ["Machine Learning", "Deep Learning", "MLOps", "Responsible AI", "Python", "Pandas", "Visualization", "Forecasting"],
+    "projects": ["AI Decision Support for Public Services", "Education Analytics Observatory"],
     "publications": ["Data-Driven Academic Planning in Emerging Universities"]
   },
   {
     "area": "Digital Transformation",
     "slug": "digital-transformation",
-    "image": "/images/research-digital.svg",
     "description": "Digital strategy, service modernization, platform architecture, and institutional capacity building.",
     "technologies": ["Enterprise Architecture", "Cloud", "Product Strategy"],
     "projects": ["Digital Campus Platform"],
