@@ -1,5 +1,20 @@
 [
   {
+    "title": "Towards Behavior-Based Analysis of Android Obfuscated Malware",
+    "authors": "Zakaria Sawadogo, Muhammad Taimoor Khan, George Loukas, Jean-Marie Dembele, Georgia Sakellari, Gervais Mendy",
+    "venue": "Software Architecture. ECSA 2023 Tracks, Workshops, and Doctoral Symposium, Lecture Notes in Computer Science, vol 14590",
+    "year": 2024,
+    "type": "Conference",
+    "doi": "10.1007/978-3-031-66326-0_10",
+    "abstract": "A behavior-based approach for detecting obfuscated Android malware, combining model-based and AI-based techniques to observe malware behavior indirectly through the runtime operations of Android services rather than attempting deobfuscation.",
+    "pdf": "https://doi.org/10.1007/978-3-031-66326-0_10",
+    "bibtex": "@inproceedings{Sawadogo2024,title={Towards Behavior-Based Analysis of Android Obfuscated Malware},author={Sawadogo, Zakaria and Khan, Muhammad Taimoor and Loukas, George and Dembele, Jean-Marie and Sakellari, Georgia and Mendy, Gervais},booktitle={Software Architecture. ECSA 2023 Tracks, Workshops, and Doctoral Symposium},volume={14590},pages={151--165},publisher={Springer Nature Switzerland},year={2024},doi={10.1007/978-3-031-66326-0_10}}",
+    "code": "",
+    "video": "",
+    "citations": 0,
+    "tags": ["Android Malware", "Obfuscation", "Behavior Analysis"]
+  },
+  {
     "title": "Mid@ndro: a Middleware Architecture for Malware Detection on Android",
     "authors": "Zakaria Sawadogo, Babacar Thioye, Ibrahima Gaye, Jean-Marie Dembele, Gervais Mendy, Samuel Ouya",
     "venue": "2023 IEEE 6th International Conference on Cloud Computing and Artificial Intelligence: Technologies and Applications (CloudTech)",
@@ -41,7 +56,7 @@
     "bibtex": "@inproceedings{10079298,title={Android Malware Detection: Feature Update Using Incremental Learning Approach: Further Investigation of UFILA},author={Sawadogo, Zakaria and Dembele, Jean-Marie and Mendy, Gervais and Ouya, Samuel},booktitle={2023 25th International Conference on Advanced Communication Technology},year={2023},pages={1446-1449},doi={10.23919/ICACT56868.2023.10079298}}",
     "code": "",
     "video": "",
-    "citations": 0,
+    "citations": 2,
     "tags": ["Android Malware", "Incremental Learning", "UFILA"]
   },
   {
@@ -56,7 +71,7 @@
     "bibtex": "@inproceedings{10079245,title={Android malware detection: An in-depth investigation of the impact of the use of imbalance datasets on the efficiency of machine learning models},author={Sawadogo, Zakaria and Dembele, Jean-Marie and Mendy, Gervais and Ouya, Samuel},booktitle={2023 25th International Conference on Advanced Communication Technology},year={2023},pages={1460-1467},doi={10.23919/ICACT56868.2023.10079245}}",
     "code": "",
     "video": "",
-    "citations": 0,
+    "citations": 5,
     "tags": ["Android Malware", "Imbalanced Data", "Machine Learning"]
   },
   {
@@ -86,7 +101,7 @@
     "bibtex": "@article{Sawa2023,title={DeepMalOb: Deep Detection of Obfuscated Android Malware},author={Sawadogo, Zakaria and Dembele, Jean Marie and Tahar, Attoumane and Mendy, Gervais and Ouya, Samuel},journal={Lecture Notes of the Institute for Computer Sciences, Social-Informatics and Telecommunications Engineering, LNICST},volume={459 LNICST},pages={307--318},year={2023},doi={10.1007/978-3-031-25271-6_19}}",
     "code": "",
     "video": "",
-    "citations": 0,
+    "citations": 9,
     "tags": ["Android Malware", "Obfuscation", "Deep Learning"]
   },
   {
@@ -101,7 +116,7 @@
     "bibtex": "@inproceedings{9728977,title={Android Malware Classification: Updating Features Through Incremental Learning Approach (UFILA)},author={Sawadogo, Zakaria and Mendy, Gervais and Dembelle, Jean Marie and Ouya, Samuel},booktitle={2022 24th International Conference on Advanced Communication Technology},year={2022},pages={544-550},doi={10.23919/ICACT53585.2022.9728977}}",
     "code": "",
     "video": "",
-    "citations": 0,
+    "citations": 9,
     "tags": ["Android Malware", "Incremental Learning", "Best Paper"]
   },
   {
@@ -116,7 +131,7 @@
     "bibtex": "@inproceedings{9728833,title={Android malware detection: Investigating the impact of imbalanced data-sets on the performance of machine learning models},author={Sawadogo, Zakaria and Mendy, Gervais and Dembele, Jean Marie and Ouya, Samuel},booktitle={2022 24th International Conference on Advanced Communication Technology},year={2022},pages={435-441},doi={10.23919/ICACT53585.2022.9728833}}",
     "code": "",
     "video": "",
-    "citations": 0,
+    "citations": 14,
     "tags": ["Android Malware", "Imbalanced Data", "Machine Learning"]
   },
   {
@@ -146,7 +161,7 @@
     "bibtex": "@inproceedings{10.1007/978-3-030-16042-5_12,title={Secure, Transparent and Uniform Mobile Money for Internet-Underserved Areas Using Sporadically-Synchronized Blockchain},author={Ghatpande, Sankalp and Ouattara, Hadja and Ahmat, Daouda and Sawadogo, Zakaria and Bissyandé, Tegawendé F.},booktitle={e-Infrastructure and e-Services for Developing Countries},pages={120--130},publisher={Springer International Publishing},year={2019}}",
     "code": "",
     "video": "",
-    "citations": 0,
+    "citations": 4,
     "tags": ["Mobile Money", "Blockchain", "Security"]
   },
   {
