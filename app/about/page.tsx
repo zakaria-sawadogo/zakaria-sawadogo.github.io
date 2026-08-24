@@ -89,10 +89,10 @@ export default function AboutPage() {
             </div>
           </Card>
 
-          <Card className="bg-[var(--brand)] text-white">
-            <p className="text-sm font-semibold uppercase tracking-[0.16em] text-white/75">Affiliation</p>
+          <Card className="text-[var(--brand-foreground)]" style={{ background: "var(--brand)" }}>
+            <p className="text-sm font-semibold uppercase tracking-[0.16em] opacity-75">Affiliation</p>
             <h2 className="mt-3 text-2xl font-bold">{profile.institution}</h2>
-            <p className="mt-3 text-sm leading-7 text-white/80">{profile.location}</p>
+            <p className="mt-3 text-sm leading-7 opacity-80">{profile.location}</p>
           </Card>
 
           <Card>
