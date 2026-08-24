@@ -1,1 +1,25 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="600" viewBox="0 0 900 600"><rect width="900" height="600" fill="#fff7ed"/><rect x="140" y="120" width="280" height="190" rx="18" fill="#1f2937"/><rect x="480" y="120" width="280" height="190" rx="18" fill="#0f766e"/><path d="M210 410h480" stroke="#b45309" stroke-width="24" stroke-linecap="round"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+  <!-- laptop base -->
+  <path d="M100 210 L300 210 L316 232 L84 232 Z" fill="#12635d"/>
+  <!-- laptop screen -->
+  <rect x="120" y="90" width="160" height="120" rx="8" fill="none" stroke="#12635d" stroke-width="6"/>
+  <rect x="120" y="90" width="160" height="120" rx="8" fill="#12635d" fill-opacity="0.08"/>
+  <!-- play button -->
+  <circle cx="200" cy="150" r="30" fill="none" stroke="#12635d" stroke-width="6"/>
+  <path d="M191 134 L216 150 L191 166 Z" fill="#12635d"/>
+  <!-- code/chip lines to the side -->
+  <rect x="70" y="120" width="34" height="8" rx="4" fill="#12635d" fill-opacity="0.35"/>
+  <rect x="70" y="140" width="24" height="8" rx="4" fill="#12635d" fill-opacity="0.35"/>
+  <rect x="296" y="120" width="34" height="8" rx="4" fill="#12635d" fill-opacity="0.35"/>
+  <rect x="306" y="140" width="24" height="8" rx="4" fill="#12635d" fill-opacity="0.35"/>
+  <!-- presenting hand / pointer figure -->
+  <circle cx="345" cy="188" r="14" fill="#12635d" fill-opacity="0.55"/>
+  <path d="M325 240 C325 214 365 214 365 240 L365 250 L325 250 Z" fill="#12635d" fill-opacity="0.55"/>
+  <!-- small audience dots -->
+  <g fill="#12635d" fill-opacity="0.35">
+    <circle cx="45" cy="200" r="10"/>
+    <path d="M29 240 C29 221 61 221 61 240 L61 246 L29 246 Z"/>
+  </g>
+  <!-- sparkle accents -->
+  <path d="M200 60 L204 72 L216 76 L204 80 L200 92 L196 80 L184 76 L196 72 Z" fill="#12635d"/>
+</svg>

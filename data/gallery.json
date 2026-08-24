@@ -1,14 +1,17 @@
 [
   {
     "title": "Research seminar",
-    "caption": "AI and cybersecurity research seminar."
+    "caption": "AI and cybersecurity research seminar.",
+    "image": "/images/gallery-seminar.svg"
   },
   {
     "title": "Student project demo",
-    "caption": "Engineering students presenting applied prototypes."
+    "caption": "Engineering students presenting applied prototypes.",
+    "image": "/images/gallery-demo.svg"
   },
   {
     "title": "Laboratory workshop",
-    "caption": "Hands-on workshop on data science and security."
+    "caption": "Hands-on workshop on data science and security.",
+    "image": "/images/gallery-workshop.svg"
   }
 ]
