@@ -8,20 +8,6 @@
     "certificate": "/images/awards/cert-best-paper-paiss-2025.png"
   },
   {
-    "date": "2025",
-    "year": "2025",
-    "title": "Academic Excellence Recognition",
-    "organization": "École Polytechnique de Ouagadougou",
-    "description": "Recognized for research mentorship and curriculum innovation."
-  },
-  {
-    "date": "2024",
-    "year": "2024",
-    "title": "Applied Research Impact Award",
-    "organization": "Digital Innovation Program",
-    "description": "Awarded for contributions to locally relevant AI and cybersecurity projects."
-  },
-  {
     "date": "February 2022",
     "year": "2022",
     "title": "Certificate of Outstanding Paper Award",
@@ -36,5 +22,19 @@
     "organization": "Partnership for Skills in Applied Sciences, Engineering and Technology (PASET)",
     "description": "Selected among outstanding African researchers for a highly competitive doctoral fellowship valued at approximately USD 100,000. Funded by the World Bank and supported by the African Union.",
     "certificate": "/images/awards/cert-paset-award-letter-2020.png"
+  },
+  {
+    "date": "2014",
+    "year": "2014",
+    "title": "National Scholarship",
+    "organization": "Government of Burkina Faso",
+    "description": "Awarded during studies at the University of Ouagadougou, Burkina Faso."
+  },
+  {
+    "date": "2013",
+    "year": "2013",
+    "title": "Excellence Scholarship",
+    "organization": "Amici di Pietro Annigoni",
+    "description": "Awarded during studies at the University of Ouagadougou, Burkina Faso."
   }
 ]

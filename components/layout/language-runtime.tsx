@@ -47,6 +47,8 @@ const dictionary: Record<string, string> = {
   "Applied Research Impact Award": "Prix de l'impact en recherche appliquée",
   "Certificate of Outstanding Paper Award": "Certificat de prix de l'article remarquable",
   "PASET RSIF PhD Scholarship": "Bourse doctorale PASET RSIF",
+  "National Scholarship": "Bourse nationale",
+  "Excellence Scholarship": "Bourse d'excellence",
   "Secure, intelligent systems for real institutions": "Des systèmes intelligents et sécurisés pour des institutions réelles",
   "The research program connects artificial intelligence, security, privacy, and data science with practical digital transformation needs.": "Le programme de recherche relie l’intelligence artificielle, la sécurité, la confidentialité et la science des données aux besoins concrets de transformation numérique.",
   "Recent publications and projects": "Publications et projets récents",
