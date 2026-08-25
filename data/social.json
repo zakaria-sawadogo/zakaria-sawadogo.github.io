@@ -1,7 +1,7 @@
 [
   { "label": "Google Scholar", "url": "https://scholar.google.com/citations?user=D0Ib9WIAAAAJ&hl=fr&oi=ao", "icon": "SiGooglescholar" },
   { "label": "ORCID", "url": "https://orcid.org/0000-0003-0427-5944", "icon": "SiOrcid" },
-  { "label": "GitHub", "url": "https://github.com/", "icon": "Github" },
+  { "label": "Scopus", "url": "https://www.scopus.com/pages/authors/57190068136", "icon": "SiScopus" },
   { "label": "LinkedIn", "url": "https://www.linkedin.com/in/zakariasawado/", "icon": "Linkedin" },
   { "label": "ResearchGate", "url": "https://researchgate.net/", "icon": "SiResearchgate" }
 ]

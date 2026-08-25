@@ -56,7 +56,7 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   const identityProfiles = social
-    .filter((item) => /scholar\.google|orcid\.org|linkedin\.com\/in\//.test(item.url))
+    .filter((item) => /scholar\.google|orcid\.org|linkedin\.com\/in\/|scopus\.com/.test(item.url))
     .map((item) => item.url);
 
   const personSchema = {
