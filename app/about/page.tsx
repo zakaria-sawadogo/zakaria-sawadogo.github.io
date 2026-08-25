@@ -4,6 +4,7 @@ import { Card } from "@/components/design/card";
 import { Badge } from "@/components/design/badge";
 import { Timeline } from "@/components/design/timeline";
 import { SmartBio } from "@/components/public/smart-bio";
+import Link from "next/link";
 import profile from "@/data/profile.json";
 import experience from "@/data/experience.json";
 import education from "@/data/education.json";
@@ -87,6 +88,9 @@ export default function AboutPage() {
                 </div>
               ))}
             </div>
+            <Link href="/awards" className="academic-link mt-5 inline-block text-sm">
+              View all awards &amp; certificates
+            </Link>
           </Card>
 
           <Card className="text-[var(--brand-foreground)]" style={{ background: "var(--brand)" }}>

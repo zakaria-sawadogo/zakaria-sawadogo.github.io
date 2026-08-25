@@ -1,20 +1,40 @@
 [
   {
-    "title": "PASET Regional Scholarship and Innovation Fund (RSIF) Scholar",
-    "organization": "Partnership for Skills in Applied Sciences, Engineering and Technology",
-    "year": "2020-2023",
-    "summary": "Selected among outstanding African researchers for a highly competitive doctoral fellowship valued at approximately USD 100,000. Funded by the World Bank and supported by the African Union, the programme promotes advanced research, innovation, international collaboration, and scientific leadership across Africa."
+    "date": "October 2025",
+    "year": "2025",
+    "title": "Best Paper Award",
+    "organization": "Pan-African AI and Smart Systems (PA-AISS) Conference",
+    "description": "For the paper \"SpreadSentinel: A Forward-Chaining Approach to Early and Adaptive DDoS Mitigation\", presented at the 4th PA-AISS Conference, Kumasi, Ghana.",
+    "certificate": "/images/awards/cert-best-paper-paiss-2025.png"
   },
   {
+    "date": "2025",
+    "year": "2025",
     "title": "Academic Excellence Recognition",
     "organization": "École Polytechnique de Ouagadougou",
-    "year": "2025",
-    "summary": "Recognized for research mentorship and curriculum innovation."
+    "description": "Recognized for research mentorship and curriculum innovation."
   },
   {
+    "date": "2024",
+    "year": "2024",
     "title": "Applied Research Impact Award",
     "organization": "Digital Innovation Program",
-    "year": "2024",
-    "summary": "Awarded for contributions to locally relevant AI and cybersecurity projects."
+    "description": "Awarded for contributions to locally relevant AI and cybersecurity projects."
+  },
+  {
+    "date": "February 2022",
+    "year": "2022",
+    "title": "Certificate of Outstanding Paper Award",
+    "organization": "ICACT 2022 — 24th International Conference on Advanced Communications Technology",
+    "description": "For the paper \"Android Malware Classification: Updating Features Through Incremental Learning Approach (UFILA)\", hosted by the Global IT Research Institute with IEEE Communications Society.",
+    "certificate": "/images/awards/cert-outstanding-icact-2022.png"
+  },
+  {
+    "date": "February 2020",
+    "year": "2020",
+    "title": "PASET RSIF PhD Scholarship",
+    "organization": "Partnership for Skills in Applied Sciences, Engineering and Technology (PASET)",
+    "description": "Selected among outstanding African researchers for a highly competitive doctoral fellowship valued at approximately USD 100,000. Funded by the World Bank and supported by the African Union.",
+    "certificate": "/images/awards/cert-paset-award-letter-2020.png"
   }
 ]
