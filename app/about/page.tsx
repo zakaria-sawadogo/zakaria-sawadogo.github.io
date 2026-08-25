@@ -26,7 +26,7 @@ export default function AboutPage() {
                 <p className="text-sm font-semibold uppercase tracking-[0.16em] text-[var(--brand)]">
                   Profile
                 </p>
-                <h2 className="mt-2 text-2xl font-bold">Academic Biography</h2>
+                <h2 className="mt-2 text-2xl font-bold">Biography</h2>
               </div>
               <Badge>Current appointment</Badge>
             </div>
