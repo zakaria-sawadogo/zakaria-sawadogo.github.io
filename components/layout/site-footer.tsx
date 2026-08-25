@@ -33,7 +33,7 @@ export function SiteFooter() {
             <input aria-label="Email" className="min-w-0 flex-1 rounded-md border border-[var(--line)] bg-transparent px-3 py-2" placeholder="email@example.com" />
             <Button type="submit">Join</Button>
           </form>
-          <p className="mt-6 text-sm text-[var(--muted)]">© {new Date().getFullYear()} {profile.name}. All rights reserved.</p>
+          <p className="mt-6 text-sm text-[var(--muted)]">© {new Date().getFullYear()} {profile.name}. <span>All rights reserved.</span></p>
         </div>
       </Container>
     </footer>

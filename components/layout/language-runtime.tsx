@@ -58,6 +58,12 @@ const dictionary: Record<string, string> = {
   "Current appointment": "Fonction actuelle",
   "Read more": "Lire la suite",
   "Show less": "Voir moins",
+  "Laboratory": "Laboratoire",
+  "Gallery": "Galerie",
+  "Research seminar": "Séminaire de recherche",
+  "Student project demo": "Démonstration de projet étudiant",
+  "Laboratory workshop": "Atelier du laboratoire",
+  "Editorial entries can be added later as JSON or Markdown content while keeping the static deployment model.": "Des articles éditoriaux pourront être ajoutés ultérieurement au format JSON ou Markdown, tout en conservant le modèle de déploiement statique.",
   "Cybersecurity, AI, privacy-preserving computing, and data-driven digital transformation.": "Cybersécurité, IA, calcul préservant la confidentialité et transformation numérique guidée par les données.",
   "Computer science, cybersecurity, artificial intelligence, and software engineering.": "Informatique, cybersécurité, intelligence artificielle et génie logiciel.",
   "Digital governance, Internet development, cybersecurity initiatives, and collaborations.": "Gouvernance numérique, développement de l’Internet, initiatives en cybersécurité et collaborations.",
@@ -105,7 +111,101 @@ const dictionary: Record<string, string> = {
   "Teaching materials": "Enseignements",
   "Full lecture notes, slide decks, and lab assignments, published as a dedicated site.": "Supports de cours complets, diaporamas et travaux pratiques, publiés sur un site dédié.",
   "Visit the course site": "Voir le site des cours",
-  "Dr. Zakaria Sawadogo is a Lecturer and Researcher at the École Polytechnique de Ouagadougou (EPO), Burkina Faso, specializing in Cybersecurity, Artificial Intelligence, Data Science, and Digital Transformation. His work sits at the crossroads of technology, public policy, and the major challenges of digital governance in Africa, and focuses on developing intelligent, secure digital systems that respond to real societal needs.\n\nHe holds a Ph.D. in Computer Science from Gaston Berger University, Senegal, where his doctoral research explored machine learning techniques for the continuous evaluation and detection of Android malware. His work has advanced behavior-based malware detection, explainable AI for cybersecurity, and privacy-preserving intelligent systems.\n\nDr. Sawadogo has authored several peer-reviewed publications in international journals and conferences. His current research interests include Cybersecurity, Android Malware Analysis, Cyber Threat Intelligence, Artificial Intelligence, Machine Learning, Deep Learning, Privacy-Preserving Computing, Federated Learning, Homomorphic Encryption, and AI for Sustainable Development.\n\nBeyond research, he teaches undergraduate and graduate courses in computer science, cybersecurity, artificial intelligence, and software engineering, and has supervised numerous student projects grounded in practical, research-oriented education.\n\nHe has also contributed to national and international initiatives on digital governance, Internet development, and cybersecurity, including leadership roles within the Internet Society Burkina Faso Chapter (ISOC Burkina Faso) and participation in regional and international research collaborations.\n\nHis long-term vision is to establish a Center of Excellence in Cybersecurity and Artificial Intelligence that fosters cutting-edge research, innovation, capacity building, and international collaboration in support of Africa's digital transformation.\n\nIn recognition of this work, Dr. Sawadogo was profiled in Le Faso's \"Les 100 Visages du Burkina Digital\" series ahead of Le Faso Digital 2026, which highlighted him as a researcher devoted to thinking through African artificial intelligence and its governing rules.": "Dr Zakaria Sawadogo est Enseignant-Chercheur à l’École Polytechnique de Ouagadougou (EPO), au Burkina Faso. Il est spécialisé en cybersécurité, intelligence artificielle, science des données et transformation numérique. Ses travaux se situent à la croisée de la technologie, des politiques publiques et des grands enjeux de gouvernance numérique en Afrique, et visent à développer des systèmes numériques intelligents et sécurisés répondant à de véritables besoins sociétaux.\n\nIl est titulaire d’un doctorat en informatique de l’Université Gaston Berger du Sénégal, où ses travaux doctoraux ont porté sur les techniques d’apprentissage automatique pour l’évaluation continue et la détection des logiciels malveillants Android. Ses recherches ont fait progresser la détection comportementale des malwares, l’intelligence artificielle explicable appliquée à la cybersécurité et les systèmes intelligents respectueux de la vie privée.\n\nDr Sawadogo est l’auteur de plusieurs publications scientifiques évaluées par les pairs dans des revues et conférences internationales. Ses intérêts de recherche actuels incluent la cybersécurité, l’analyse des malwares Android, la cyber threat intelligence, l’intelligence artificielle, l’apprentissage automatique, l’apprentissage profond, le calcul préservant la confidentialité, l’apprentissage fédéré, le chiffrement homomorphe et l’IA pour le développement durable.\n\nAu-delà de la recherche, il enseigne des cours de premier cycle et de cycle supérieur en informatique, cybersécurité, intelligence artificielle et génie logiciel, et a encadré de nombreux projets étudiants ancrés dans une formation pratique et orientée recherche.\n\nIl a également contribué à des initiatives nationales et internationales sur la gouvernance numérique, le développement de l’Internet et la cybersécurité, notamment à travers des responsabilités au sein du chapitre Internet Society Burkina Faso (ISOC Burkina Faso) et des collaborations de recherche régionales et internationales.\n\nSa vision à long terme est de mettre en place un Centre d’Excellence en Cybersécurité et Intelligence Artificielle favorisant la recherche de pointe, l’innovation, le renforcement des capacités et la collaboration internationale au service de la transformation numérique de l’Afrique.\n\nEn reconnaissance de ce parcours, Dr Sawadogo a été présenté dans la série « Les 100 Visages du Burkina Digital » du Faso, à l’approche de Le Faso Digital 2026, qui l’a distingué comme un chercheur engagé à penser l’intelligence artificielle africaine et ses règles."
+  "Slides": "Diapositives",
+  "Coming soon": "Bientôt disponible",
+  "This space is prepared for research notes, teaching updates, and technical reflections.": "Cet espace est prévu pour des notes de recherche, des mises à jour pédagogiques et des réflexions techniques.",
+  "Download": "Télécharger",
+  "Download PDF CV": "Télécharger le CV (PDF)",
+  "Equipment & partners": "Équipements et partenaires",
+  "Join the laboratory": "Rejoindre le laboratoire",
+  "Responsibilities": "Responsabilités",
+  "No publications match your search.": "Aucune publication ne correspond à votre recherche.",
+  "Scan to save contact": "Scannez pour enregistrer le contact",
+  "Send message": "Envoyer le message",
+  "paper": "article",
+  "papers": "articles",
+  "All": "Tous",
+  "Abstract": "Résumé",
+  "Video": "Vidéo",
+  "Cite": "Citer",
+  "Copied": "Copié",
+  "Conference": "Conférence",
+  "Journal": "Revue",
+  "Talks": "Communications",
+  "Downloads": "Téléchargements",
+  "Name": "Nom",
+  "Email": "E-mail",
+  "Toggle navigation": "Basculer la navigation",
+  "Toggle theme": "Changer de thème",
+  "Partners:": "Partenaires :",
+  "Funding:": "Financement :",
+  "Digital strategy, service modernization, platform architecture, and institutional capacity building.": "Stratégie numérique, modernisation des services, architecture de plateforme et renforcement des capacités institutionnelles.",
+  "A research platform for collecting, analyzing, and classifying Android application behavior.": "Une plateforme de recherche pour collecter, analyser et classifier le comportement des applications Android.",
+  "Dashboards and predictive models for supporting academic planning and student success.": "Tableaux de bord et modèles prédictifs pour soutenir la planification académique et la réussite étudiante.",
+  "A modular digital service architecture for universities and engineering schools.": "Une architecture de services numériques modulaire pour les universités et écoles d'ingénieurs.",
+  "Active": "Actif",
+  "Internal research grant": "Subvention de recherche interne",
+  "Institutional innovation program": "Programme d'innovation institutionnel",
+  "Digital transformation initiative": "Initiative de transformation numérique",
+  "Advance applied research and train engineers capable of building secure, intelligent, and socially useful digital systems.": "Faire avancer la recherche appliquée et former des ingénieurs capables de construire des systèmes numériques sécurisés, intelligents et socialement utiles.",
+  "Become a regional reference laboratory for cybersecurity, trustworthy AI, and data-driven innovation.": "Devenir un laboratoire de référence régional pour la cybersécurité, l'IA digne de confiance et l'innovation fondée sur les données.",
+  "Students interested in cybersecurity, AI, privacy, or data science are encouraged to contact the lab with a short research statement.": "Les étudiants intéressés par la cybersécurité, l'IA, la confidentialité ou la science des données sont invités à contacter le laboratoire avec une brève note de recherche.",
+  "Mobile Security": "Sécurité mobile",
+  "Trustworthy AI": "IA digne de confiance",
+  "Privacy Engineering": "Ingénierie de la confidentialité",
+  "Educational Data Science": "Science des données éducative",
+  "GPU workstation, Security analysis lab, Mobile testing devices, Data visualization room": "Poste de travail GPU, laboratoire d'analyse de sécurité, appareils de test mobile, salle de visualisation de données",
+  "École Polytechnique de Ouagadougou, Public-sector digital services, Industry innovation partners": "École Polytechnique de Ouagadougou, services numériques du secteur public, partenaires industriels de l'innovation",
+  "PhD in Computer Science": "Doctorat en informatique",
+  "Research focus: Cybersecurity and AI": "Axe de recherche : Cybersécurité et IA",
+  "Dissertation on intelligent methods for security analytics and privacy-aware systems.": "Thèse sur des méthodes intelligentes pour l'analyse de sécurité et les systèmes respectueux de la vie privée.",
+  "MSc in Computer Science": "Master en informatique",
+  "Data Science and Software Engineering": "Science des données et génie logiciel",
+  "Advanced training in algorithms, distributed systems, and applied machine learning.": "Formation avancée en algorithmes, systèmes distribués et apprentissage automatique appliqué.",
+  "IT Consultant - Digital Rights & Inclusion": "Consultant TI - Droits numériques et inclusion",
+  "Research Assistant": "Assistant de recherche",
+  "Junior Research Fellow": "Chercheur junior",
+  "United Kingdom": "Royaume-Uni",
+  "Africa": "Afrique",
+  "2024 - Present": "2024 - Présent",
+  "Lead research on cybersecurity, AI governance, and digital trust.\nDevelop policy-oriented research supporting digital transformation.": "Diriger des recherches en cybersécurité, gouvernance de l'IA et confiance numérique.\nDévelopper des recherches orientées politiques publiques au service de la transformation numérique.",
+  "Advised institutions on digital rights and personal data protection.\nCo-authored the Digital Rights Manual for Beginners.": "Conseiller des institutions sur les droits numériques et la protection des données personnelles.\nCo-auteur du Digital Rights Manual for Beginners.",
+  "Conducted cybersecurity research and AI-enabled threat detection projects.": "Mener des recherches en cybersécurité et des projets de détection des menaces assistée par IA.",
+  "Conducted research on AI for Development and low-resource African languages.": "Mener des recherches sur l'IA pour le développement et les langues africaines à faibles ressources.",
+  "Secure Digital Transformation for Higher Education": "Transformation numérique sécurisée pour l'enseignement supérieur",
+  "Institutional Innovation Fund": "Fonds d'innovation institutionnel",
+  "Confidential": "Confidentiel",
+  "Supports applied work on secure academic information systems and analytics.": "Soutient des travaux appliqués sur des systèmes d'information académiques sécurisés et l'analytique.",
+  "AI for Local Decision Support": "IA pour l'aide à la décision locale",
+  "Research Seed Program": "Programme d'amorçage de la recherche",
+  "Seed funding": "Financement d'amorçage",
+  "Supports prototypes for responsible data-driven decision support.": "Soutient des prototypes d'aide à la décision responsable fondée sur les données.",
+  "MSc": "Master",
+  "Engineering": "Ingénierie",
+  "Privacy-preserving educational analytics": "Analytique éducative respectueuse de la vie privée",
+  "Android malware feature extraction": "Extraction de caractéristiques de malwares Android",
+  "Cybersecurity dashboards for public institutions": "Tableaux de bord de cybersécurité pour les institutions publiques",
+  "Current": "En cours",
+  "Alumni": "Ancien(ne)",
+  "Trustworthy AI for Digital Public Services": "IA digne de confiance pour les services publics numériques",
+  "African AI Forum": "Forum africain de l'IA",
+  "Cybersecurity Capacity Building in Engineering Education": "Renforcement des capacités en cybersécurité dans l'enseignement de l'ingénierie",
+  "University Digital Transformation Week": "Semaine de la transformation numérique universitaire",
+  "Cybersecurity and AI research seminar.": "Séminaire de recherche en cybersécurité et IA.",
+  "Engineering students presenting applied prototypes.": "Étudiants en ingénierie présentant des prototypes appliqués.",
+  "Hands-on workshop on data science and security.": "Atelier pratique sur la science des données et la sécurité.",
+  "For the paper \"SpreadSentinel: A Forward-Chaining Approach to Early and Adaptive DDoS Mitigation\", presented at the 4th PA-AISS Conference, Kumasi, Ghana.": "Pour l'article « SpreadSentinel: A Forward-Chaining Approach to Early and Adaptive DDoS Mitigation », présenté à la 4e conférence PA-AISS, Kumasi, Ghana.",
+  "For the paper \"Android Malware Classification: Updating Features Through Incremental Learning Approach (UFILA)\", hosted by the Global IT Research Institute with IEEE Communications Society.": "Pour l'article « Android Malware Classification: Updating Features Through Incremental Learning Approach (UFILA) », organisé par le Global IT Research Institute avec l'IEEE Communications Society.",
+  "Selected among outstanding African researchers for a highly competitive doctoral fellowship valued at approximately USD 100,000. Funded by the World Bank and supported by the African Union.": "Sélectionné parmi des chercheurs africains d'excellence pour une bourse doctorale très compétitive d'une valeur d'environ 100 000 USD. Financée par la Banque mondiale et soutenue par l'Union africaine.",
+  "Awarded during studies at the University of Ouagadougou, Burkina Faso.": "Attribuée pendant les études à l'Université de Ouagadougou, Burkina Faso.",
+  "Government of Burkina Faso": "Gouvernement du Burkina Faso",
+  "Dr. Zakaria Sawadogo is a Lecturer and Researcher at the École Polytechnique de Ouagadougou (EPO), Burkina Faso, specializing in Cybersecurity, Artificial Intelligence, Data Science, and Digital Transformation. His work sits at the crossroads of technology, public policy, and the major challenges of digital governance in Africa, and focuses on developing intelligent, secure digital systems that respond to real societal needs.": "Dr Zakaria Sawadogo est Enseignant-Chercheur à l’École Polytechnique de Ouagadougou (EPO), au Burkina Faso. Il est spécialisé en cybersécurité, intelligence artificielle, science des données et transformation numérique. Ses travaux se situent à la croisée de la technologie, des politiques publiques et des grands enjeux de gouvernance numérique en Afrique, et visent à développer des systèmes numériques intelligents et sécurisés répondant à de véritables besoins sociétaux.",
+  "He holds a Ph.D. in Computer Science from Gaston Berger University, Senegal, where his doctoral research explored machine learning techniques for the continuous evaluation and detection of Android malware. His work has advanced behavior-based malware detection, explainable AI for cybersecurity, and privacy-preserving intelligent systems.": "Il est titulaire d’un doctorat en informatique de l’Université Gaston Berger du Sénégal, où ses travaux doctoraux ont porté sur les techniques d’apprentissage automatique pour l’évaluation continue et la détection des logiciels malveillants Android. Ses recherches ont fait progresser la détection comportementale des malwares, l’intelligence artificielle explicable appliquée à la cybersécurité et les systèmes intelligents respectueux de la vie privée.",
+  "Dr. Sawadogo has authored several peer-reviewed publications in international journals and conferences. His current research interests include Cybersecurity, Android Malware Analysis, Cyber Threat Intelligence, Artificial Intelligence, Machine Learning, Deep Learning, Privacy-Preserving Computing, Federated Learning, Homomorphic Encryption, and AI for Sustainable Development.": "Dr Sawadogo est l’auteur de plusieurs publications scientifiques évaluées par les pairs dans des revues et conférences internationales. Ses intérêts de recherche actuels incluent la cybersécurité, l’analyse des malwares Android, la cyber threat intelligence, l’intelligence artificielle, l’apprentissage automatique, l’apprentissage profond, le calcul préservant la confidentialité, l’apprentissage fédéré, le chiffrement homomorphe et l’IA pour le développement durable.",
+  "Beyond research, he teaches undergraduate and graduate courses in computer science, cybersecurity, artificial intelligence, and software engineering, and has supervised numerous student projects grounded in practical, research-oriented education.": "Au-delà de la recherche, il enseigne des cours de premier cycle et de cycle supérieur en informatique, cybersécurité, intelligence artificielle et génie logiciel, et a encadré de nombreux projets étudiants ancrés dans une formation pratique et orientée recherche.",
+  "He has also contributed to national and international initiatives on digital governance, Internet development, and cybersecurity, including leadership roles within the Internet Society Burkina Faso Chapter (ISOC Burkina Faso) and participation in regional and international research collaborations.": "Il a également contribué à des initiatives nationales et internationales sur la gouvernance numérique, le développement de l’Internet et la cybersécurité, notamment à travers des responsabilités au sein du chapitre Internet Society Burkina Faso (ISOC Burkina Faso) et des collaborations de recherche régionales et internationales.",
+  "His long-term vision is to establish a Center of Excellence in Cybersecurity and Artificial Intelligence that fosters cutting-edge research, innovation, capacity building, and international collaboration in support of Africa's digital transformation.": "Sa vision à long terme est de mettre en place un Centre d’Excellence en Cybersécurité et Intelligence Artificielle favorisant la recherche de pointe, l’innovation, le renforcement des capacités et la collaboration internationale au service de la transformation numérique de l’Afrique.",
+  "In recognition of this work, Dr. Sawadogo was profiled in Le Faso's \"Les 100 Visages du Burkina Digital\" series ahead of Le Faso Digital 2026, which highlighted him as a researcher devoted to thinking through African artificial intelligence and its governing rules.": "En reconnaissance de ce parcours, Dr Sawadogo a été présenté dans la série « Les 100 Visages du Burkina Digital » du Faso, à l’approche de Le Faso Digital 2026, qui l’a distingué comme un chercheur engagé à penser l’intelligence artificielle africaine et ses règles.",
 };
 
 const reverseDictionary = Object.fromEntries(Object.entries(dictionary).map(([english, french]) => [french, english]));
@@ -120,6 +220,20 @@ function translateTextNode(node: Text, language: "en" | "fr") {
   if (!replacement) return;
 
   node.nodeValue = value.replace(trimmed, replacement);
+}
+
+const translatableAttributes = ["placeholder", "aria-label", "title"];
+
+function translateAttribute(element: Element, attribute: string, language: "en" | "fr") {
+  const value = element.getAttribute(attribute);
+  if (!value) return;
+  const trimmed = value.trim();
+  if (!trimmed) return;
+
+  const replacement = language === "fr" ? dictionary[trimmed] : reverseDictionary[trimmed];
+  if (!replacement) return;
+
+  element.setAttribute(attribute, value.replace(trimmed, replacement));
 }
 
 function applyLanguage(language: "en" | "fr") {
@@ -138,6 +252,12 @@ function applyLanguage(language: "en" | "fr") {
   const nodes: Text[] = [];
   while (walker.nextNode()) nodes.push(walker.currentNode as Text);
   nodes.forEach((node) => translateTextNode(node, language));
+
+  translatableAttributes.forEach((attribute) => {
+    document.body.querySelectorAll(`[${attribute}]`).forEach((element) => {
+      translateAttribute(element, attribute, language);
+    });
+  });
 }
 
 export function LanguageRuntime() {
