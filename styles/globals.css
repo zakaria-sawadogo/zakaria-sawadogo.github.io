@@ -17,6 +17,7 @@
   --accent: #9a5b13;
   --ink: #16181b;
   --soft: #f0f4f1;
+  --highlight-red: #c81e1e;
 }
 
 .dark {
@@ -32,6 +33,7 @@
   --accent: #fbbf24;
   --ink: #f8fafc;
   --soft: #151d1a;
+  --highlight-red: #f87171;
 }
 
 * {
@@ -82,6 +84,14 @@ select {
   font-weight: 650;
   text-decoration: underline;
   text-decoration-color: color-mix(in srgb, var(--brand) 30%, transparent);
+  text-underline-offset: 3px;
+}
+
+.link-highlight {
+  color: var(--highlight-red);
+  font-weight: 650;
+  text-decoration: underline;
+  text-decoration-color: color-mix(in srgb, var(--highlight-red) 30%, transparent);
   text-underline-offset: 3px;
 }
 

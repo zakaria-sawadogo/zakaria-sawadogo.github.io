@@ -40,7 +40,7 @@ export default function HomePage() {
             </div>
             <div className="mt-5 flex flex-wrap gap-2">
               {social.slice(0, 4).map((item) => (
-                <Link className="academic-link text-sm" href={item.url} key={item.label}>
+                <Link className="link-highlight text-sm" href={item.url} key={item.label}>
                   {item.label}
                 </Link>
               ))}
