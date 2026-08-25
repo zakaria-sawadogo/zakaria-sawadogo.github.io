@@ -1,17 +1,12 @@
-import { ShieldCheck, BrainCircuit, Rocket, type LucideIcon } from "lucide-react";
+import Image from "next/image";
 import { Section } from "@/components/design/section";
 import { Heading } from "@/components/design/heading";
 import { Card } from "@/components/design/card";
 import { Badge } from "@/components/design/badge";
 import research from "@/data/research.json";
+import { withBasePath } from "@/lib/paths";
 
 export const metadata = { title: "Research" };
-
-const icons: Record<string, LucideIcon> = {
-  "Cybersecurity & Privacy": ShieldCheck,
-  "Artificial Intelligence & Data Science": BrainCircuit,
-  "Digital Transformation": Rocket
-};
 
 export default function ResearchPage() {
   return (
@@ -19,14 +14,19 @@ export default function ResearchPage() {
       <Heading eyebrow="Research" title="Research areas" text="Each research area connects technologies, projects, and publications so the academic record stays navigable." />
       <div className="grid gap-6 md:grid-cols-2">
         {research.map((item) => {
-          const Icon = icons[item.area] ?? ShieldCheck;
           return (
           <Card key={item.slug}>
             <div
-              className="mb-5 flex aspect-video w-full items-center justify-center rounded-md"
+              className="mb-5 flex aspect-video w-full items-center justify-center rounded-md p-6"
               style={{ background: "color-mix(in srgb, var(--brand) 10%, var(--soft))" }}
             >
-              <Icon size={56} className="text-[var(--brand)]" strokeWidth={1.5} />
+              <Image
+                src={withBasePath(item.image)}
+                alt={item.area}
+                width={400}
+                height={300}
+                className="h-full w-full object-contain"
+              />
             </div>
             <h2 className="text-2xl font-bold">{item.area}</h2>
             <p className="mt-3 leading-7 text-[var(--muted)]">{item.description}</p>

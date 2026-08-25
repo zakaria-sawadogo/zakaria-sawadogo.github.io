@@ -5,7 +5,8 @@
     "description": "A research platform for collecting, analyzing, and classifying Android application behavior.",
     "technologies": ["Python", "Android", "Graph ML", "Security Analytics"],
     "partners": ["École Polytechnique de Ouagadougou"],
-    "funding": "Internal research grant"
+    "funding": "Internal research grant",
+    "image": "/images/project-malware-platform.svg"
   },
   {
     "title": "Education Analytics Observatory",
@@ -13,7 +14,8 @@
     "description": "Dashboards and predictive models for supporting academic planning and student success.",
     "technologies": ["Data Science", "Dashboards", "Forecasting"],
     "partners": ["Academic Affairs Office"],
-    "funding": "Institutional innovation program"
+    "funding": "Institutional innovation program",
+    "image": "/images/project-education-analytics.svg"
   },
   {
     "title": "Digital Campus Platform",
@@ -21,6 +23,7 @@
     "description": "A modular digital service architecture for universities and engineering schools.",
     "technologies": ["Next.js", "Cloud", "Identity", "APIs"],
     "partners": ["EPO Digital Services"],
-    "funding": "Digital transformation initiative"
+    "funding": "Digital transformation initiative",
+    "image": "/images/project-digital-campus.svg"
   }
 ]

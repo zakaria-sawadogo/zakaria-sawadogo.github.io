@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+  <!-- ground line -->
+  <path d="M40 240 H360" stroke="#9a5b13" stroke-width="3" stroke-opacity="0.3"/>
+
+  <!-- main campus building -->
+  <rect x="150" y="120" width="100" height="120" rx="4" fill="#9a5b13" fill-opacity="0.10" stroke="#9a5b13" stroke-width="5"/>
+  <path d="M144 120 L200 84 L256 120 Z" fill="#9a5b13"/>
+  <rect x="188" y="176" width="24" height="64" rx="2" fill="#9a5b13"/>
+  <g fill="#9a5b13" fill-opacity="0.6">
+    <rect x="162" y="140" width="16" height="16" rx="2"/>
+    <rect x="222" y="140" width="16" height="16" rx="2"/>
+    <rect x="162" y="168" width="16" height="16" rx="2"/>
+    <rect x="222" y="168" width="16" height="16" rx="2"/>
+  </g>
+
+  <!-- side buildings -->
+  <rect x="70" y="170" width="60" height="70" rx="4" fill="#12635d" fill-opacity="0.10" stroke="#12635d" stroke-width="4"/>
+  <g fill="#12635d" fill-opacity="0.55">
+    <rect x="82" y="184" width="12" height="12" rx="2"/>
+    <rect x="106" y="184" width="12" height="12" rx="2"/>
+    <rect x="82" y="206" width="12" height="12" rx="2"/>
+    <rect x="106" y="206" width="12" height="12" rx="2"/>
+  </g>
+
+  <rect x="270" y="170" width="60" height="70" rx="4" fill="#12635d" fill-opacity="0.10" stroke="#12635d" stroke-width="4"/>
+  <g fill="#12635d" fill-opacity="0.55">
+    <rect x="282" y="184" width="12" height="12" rx="2"/>
+    <rect x="306" y="184" width="12" height="12" rx="2"/>
+    <rect x="282" y="206" width="12" height="12" rx="2"/>
+    <rect x="306" y="206" width="12" height="12" rx="2"/>
+  </g>
+
+  <!-- connectivity network overlay linking buildings (digital layer) -->
+  <g stroke="#12635d" stroke-width="2.5" stroke-opacity="0.5" fill="none">
+    <path d="M100 170 C130 110 150 90 190 76"/>
+    <path d="M300 170 C270 110 250 90 210 76"/>
+    <path d="M100 170 L300 170"/>
+  </g>
+  <g fill="#12635d">
+    <circle cx="100" cy="170" r="6"/>
+    <circle cx="300" cy="170" r="6"/>
+    <circle cx="190" cy="76" r="6"/>
+    <circle cx="210" cy="76" r="0" fill-opacity="0"/>
+  </g>
+
+  <!-- cloud above campus representing platform -->
+  <path d="M170 52 a16 16 0 0 1 4 -32 a22 22 0 0 1 44 -7 a18 18 0 0 1 4 36 Z" fill="#12635d" fill-opacity="0.14" stroke="#12635d" stroke-width="3.5" stroke-linejoin="round"/>
+</svg>

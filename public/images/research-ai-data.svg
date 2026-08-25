@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+  <!-- neural network background links -->
+  <g stroke="#12635d" stroke-opacity="0.28" stroke-width="2">
+    <path d="M130 90 L200 70 M130 150 L200 70 M130 210 L200 150 M270 90 L200 70 M270 150 L200 150 M270 210 L200 150 M130 90 L200 150 M270 90 L200 150"/>
+  </g>
+  <g fill="#12635d" fill-opacity="0.45">
+    <circle cx="130" cy="90" r="7"/>
+    <circle cx="130" cy="150" r="7"/>
+    <circle cx="130" cy="210" r="7"/>
+    <circle cx="270" cy="90" r="7"/>
+    <circle cx="270" cy="150" r="7"/>
+    <circle cx="270" cy="210" r="7"/>
+  </g>
+
+  <!-- central AI brain node -->
+  <circle cx="200" cy="110" r="30" fill="#12635d" fill-opacity="0.12" stroke="#12635d" stroke-width="5"/>
+  <path d="M188 98 c-8 0 -8 12 0 14 c-4 8 6 16 12 10 c6 6 16 -2 12 -10 c8 -2 8 -14 0 -14 c2 -8 -10 -12 -14 -4 c-4 -8 -14 -4 -10 4 Z" fill="#12635d"/>
+
+  <!-- connecting stem to data platform -->
+  <path d="M200 140 V168" stroke="#12635d" stroke-width="5" stroke-linecap="round"/>
+
+  <!-- data bar chart platform -->
+  <rect x="140" y="176" width="120" height="60" rx="8" fill="#12635d" fill-opacity="0.08" stroke="#12635d" stroke-width="4"/>
+  <rect x="156" y="204" width="14" height="24" rx="3" fill="#12635d"/>
+  <rect x="178" y="192" width="14" height="36" rx="3" fill="#12635d"/>
+  <rect x="200" y="198" width="14" height="30" rx="3" fill="#12635d"/>
+  <rect x="222" y="184" width="14" height="44" rx="3" fill="#12635d"/>
+
+  <!-- trend line over bars -->
+  <path d="M156 214 L178 200 L200 206 L222 190" stroke="#9a5b13" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="222" cy="190" r="5" fill="#9a5b13"/>
+
+  <!-- floating data points -->
+  <g fill="#12635d" fill-opacity="0.5">
+    <circle cx="76" cy="70" r="5"/>
+    <circle cx="60" cy="110" r="4"/>
+    <circle cx="90" cy="150" r="6"/>
+    <circle cx="324" cy="70" r="5"/>
+    <circle cx="340" cy="115" r="4"/>
+    <circle cx="312" cy="155" r="6"/>
+  </g>
+</svg>

@@ -1,15 +1,10 @@
-import { Bug, Building2, LineChart, type LucideIcon } from "lucide-react";
+import Image from "next/image";
 import { Section } from "@/components/design/section";
 import { Heading } from "@/components/design/heading";
 import { Card } from "@/components/design/card";
 import { Badge } from "@/components/design/badge";
 import projects from "@/data/projects.json";
-
-const icons: Record<string, LucideIcon> = {
-  "Android Malware Intelligence Platform": Bug,
-  "Education Analytics Observatory": LineChart,
-  "Digital Campus Platform": Building2
-};
+import { withBasePath } from "@/lib/paths";
 
 export const metadata = { title: "Projects" };
 
@@ -19,14 +14,19 @@ export default function ProjectsPage() {
       <Heading eyebrow="Projects" title="Applied research and institutional platforms" />
       <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
         {projects.map((project) => {
-          const Icon = icons[project.title] ?? Building2;
           return (
             <Card key={project.title}>
               <div
-                className="mb-5 flex aspect-video w-full items-center justify-center rounded-md"
+                className="mb-5 flex aspect-video w-full items-center justify-center rounded-md p-6"
                 style={{ background: "color-mix(in srgb, var(--accent) 10%, var(--soft))" }}
               >
-                <Icon size={48} className="text-[var(--accent)]" strokeWidth={1.5} />
+                <Image
+                  src={withBasePath(project.image)}
+                  alt={project.title}
+                  width={400}
+                  height={300}
+                  className="h-full w-full object-contain"
+                />
               </div>
               <Badge>{project.status}</Badge>
               <h2 className="mt-4 text-2xl font-bold">{project.title}</h2>
