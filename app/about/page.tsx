@@ -37,13 +37,13 @@ export default function AboutPage() {
             <Card className="p-5">
               <p className="text-sm font-semibold uppercase tracking-[0.14em] text-[var(--brand)]">Research</p>
               <p className="mt-3 text-sm leading-7 text-[var(--muted)]">
-                AI, cybersecurity, privacy-preserving computing, and data-driven digital transformation.
+                Cybersecurity, AI, privacy-preserving computing, and data-driven digital transformation.
               </p>
             </Card>
             <Card className="p-5">
               <p className="text-sm font-semibold uppercase tracking-[0.14em] text-[var(--brand)]">Teaching</p>
               <p className="mt-3 text-sm leading-7 text-[var(--muted)]">
-                Computer science, artificial intelligence, cybersecurity, and software engineering.
+                Computer science, cybersecurity, artificial intelligence, and software engineering.
               </p>
             </Card>
             <Card className="p-5">

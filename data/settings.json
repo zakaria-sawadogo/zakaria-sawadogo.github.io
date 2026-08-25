@@ -2,9 +2,9 @@
   "siteUrl": "https://zakaria-sawadogo.github.io/zs",
   "seo": {
     "name": "Dr Zakaria Sawadogo",
-    "title": "Dr Zakaria Sawadogo | AI, Cybersecurity & Data Science",
+    "title": "Dr Zakaria Sawadogo | Cybersecurity, AI & Data Science",
     "description": "Academic portfolio for Dr Zakaria Sawadogo, Lecturer and Researcher at École Polytechnique de Ouagadougou.",
-    "keywords": ["Artificial Intelligence", "Cybersecurity", "Data Science", "Android Malware", "Privacy", "Digital Transformation"]
+    "keywords": ["Cybersecurity", "Artificial Intelligence", "Data Science", "Android Malware", "Privacy", "Digital Transformation"]
   },
   "navigation": [
     { "label": "Home", "href": "/" },
