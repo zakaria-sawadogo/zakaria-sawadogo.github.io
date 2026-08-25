@@ -1,5 +1,20 @@
 [
   {
+    "title": "SpreadSentinel: A Forward-Chaining Approach to Early and Adaptive DDoS Mitigation",
+    "authors": "Delwende D. Arthur Sawadogo, Abdoul Rahim Kone, Zakaria Sawadogo, Didier Bassole, Roland Kalmogo, Gouayon Koala",
+    "venue": "Pan-African Artificial Intelligence and Smart Systems (PAAISS 2025), Lecture Notes of the Institute for Computer Sciences, Social Informatics and Telecommunications Engineering, vol 697",
+    "year": 2026,
+    "type": "Conference",
+    "doi": "10.1007/978-3-032-33957-7_13",
+    "abstract": "SpreadSentinel introduces an incremental framework for early DDoS detection in dynamic, imbalanced network environments, combining forward-chaining techniques, mini-batch learning, and SMOTE-based class rebalancing. Evaluated on the CICDDoS2019-Friday dataset, the approach surpasses 99% detection accuracy and is adaptable to SDN and IoT infrastructures. Best Paper Award, PA-AISS Conference 2025.",
+    "pdf": "https://doi.org/10.1007/978-3-032-33957-7_13",
+    "bibtex": "@inproceedings{Sawadogo2026SpreadSentinel,title={SpreadSentinel: A Forward-Chaining Approach to Early and Adaptive DDoS Mitigation},author={Sawadogo, Delwende D. Arthur and Kone, Abdoul Rahim and Sawadogo, Zakaria and Bassole, Didier and Kalmogo, Roland and Koala, Gouayon},booktitle={Pan-African Artificial Intelligence and Smart Systems},volume={697},pages={213--230},publisher={Springer, Cham},year={2026},doi={10.1007/978-3-032-33957-7_13}}",
+    "code": "",
+    "video": "",
+    "citations": 0,
+    "tags": ["DDoS Detection", "Deep Learning", "Network Security"]
+  },
+  {
     "title": "Towards Behavior-Based Analysis of Android Obfuscated Malware",
     "authors": "Zakaria Sawadogo, Muhammad Taimoor Khan, George Loukas, Jean-Marie Dembele, Georgia Sakellari, Gervais Mendy",
     "venue": "Software Architecture. ECSA 2023 Tracks, Workshops, and Doctoral Symposium, Lecture Notes in Computer Science, vol 14590",
