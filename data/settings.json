@@ -12,6 +12,7 @@
     { "label": "Research", "href": "/research" },
     { "label": "Publications", "href": "/publications" },
     { "label": "Projects", "href": "/projects" },
+    { "label": "Awards", "href": "/awards" },
     { "label": "Teaching", "href": "/teaching" },
     { "label": "Lab", "href": "/laboratory" },
     { "label": "Contact", "href": "/contact" }
