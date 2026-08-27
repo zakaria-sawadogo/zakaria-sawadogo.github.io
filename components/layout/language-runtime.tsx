@@ -96,7 +96,7 @@ const dictionary: Record<string, string> = {
   "Associated publications": "Publications associées",
   "Digital Transformation": "Transformation Numérique",
   "Search publications": "Rechercher des publications",
-  "Applied research and institutional platforms": "Recherche appliquée et plateformes institutionnelles",
+  "Research for a sovereign Africa": "La recherche au service d'une Afrique souveraine",
   "Courses, practical work, and downloadable material": "Cours, travaux pratiques et ressources téléchargeables",
   "Cybersecurity, AI & Data Science Laboratory": "Laboratoire Cybersécurité, IA et Science des Données",
   "Notes on cybersecurity, AI, and data systems": "Notes sur la cybersécurité, l'IA et les systèmes de données",

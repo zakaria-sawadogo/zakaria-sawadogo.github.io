@@ -11,7 +11,7 @@ export const metadata = { title: "Projects" };
 export default function ProjectsPage() {
   return (
     <Section>
-      <Heading eyebrow="Projects" title="Applied research and institutional platforms" />
+      <Heading eyebrow="Projects" title="Research for a sovereign Africa" />
       <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
         {projects.map((project) => {
           return (
