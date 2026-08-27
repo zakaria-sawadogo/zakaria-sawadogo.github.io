@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+  <!-- mesh links between partner nodes -->
+  <g stroke="#12635d" stroke-width="3" stroke-opacity="0.5">
+    <path d="M200 150 L84 80"/>
+    <path d="M200 150 L316 80"/>
+    <path d="M200 150 L88 226"/>
+    <path d="M200 150 L312 226"/>
+    <path d="M84 80 L88 226" stroke-opacity="0.25"/>
+    <path d="M316 80 L312 226" stroke-opacity="0.25"/>
+  </g>
+
+  <!-- central shield with alert -->
+  <g transform="translate(200,150)">
+    <path d="M0 -48 L46 -28 V16 C46 50 24 72 0 82 C-24 72 -46 50 -46 16 V-28 Z" fill="#12635d" fill-opacity="0.12" stroke="#12635d" stroke-width="6" stroke-linejoin="round"/>
+    <rect x="-5" y="-20" width="10" height="34" rx="4" fill="#12635d"/>
+    <circle cx="0" cy="24" r="6" fill="#12635d"/>
+  </g>
+
+  <!-- magnifying glass over the alert -->
+  <g transform="translate(248,110)">
+    <circle r="22" fill="#9a5b13" fill-opacity="0.12" stroke="#9a5b13" stroke-width="5"/>
+    <path d="M16 16 L32 32" stroke="#9a5b13" stroke-width="6" stroke-linecap="round"/>
+  </g>
+
+  <!-- partner shield nodes -->
+  <g fill="#9a5b13">
+    <path d="M84 60 L104 70 V90 C104 104 94 114 84 118 C74 114 64 104 64 90 V70 Z" fill-opacity="0.85"/>
+    <path d="M316 60 L336 70 V90 C336 104 326 114 316 118 C306 114 296 104 296 90 V70 Z" fill-opacity="0.85"/>
+    <path d="M88 206 L108 216 V236 C108 250 98 260 88 264 C78 260 68 250 68 236 V216 Z" fill-opacity="0.85"/>
+    <path d="M312 206 L332 216 V236 C332 250 322 260 312 264 C302 260 292 250 292 236 V216 Z" fill-opacity="0.85"/>
+  </g>
+
+  <!-- background data glyphs -->
+  <g fill="#12635d" fill-opacity="0.45" font-family="monospace" font-size="12">
+    <text x="176" y="264">01 10 11</text>
+  </g>
+</svg>

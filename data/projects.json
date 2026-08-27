@@ -1,29 +1,38 @@
 [
   {
-    "title": "Android Malware Intelligence Platform",
-    "status": "Active",
-    "description": "A research platform for collecting, analyzing, and classifying Android application behavior.",
-    "technologies": ["Python", "Android", "Graph ML", "Security Analytics"],
+    "title": "National Cybersecurity Resilience Toolkit",
+    "status": "Concept",
+    "description": "An open maturity framework and self-assessment toolkit to help public institutions across Burkina Faso and the wider West African region diagnose their cybersecurity posture and close critical gaps. The long-term ambition is to become the reference capacity-building framework for cyber resilience in the region.",
+    "technologies": ["Security Analytics", "Risk Assessment", "Capacity Building", "Policy"],
+    "partners": ["Internet Society Burkina Faso Chapter (ISOC Burkina Faso)"],
+    "funding": "Seeking government and international partners",
+    "image": "/images/project-cyber-resilience-toolkit.svg"
+  },
+  {
+    "title": "Sovereign Data Exchange for Public Services",
+    "status": "Concept",
+    "description": "A federated, privacy-preserving infrastructure that lets health, education, and public-service institutions collaborate on sensitive data-driven decisions without ever centralizing or exposing citizen data. Designed as foundational digital-sovereignty infrastructure for data-driven public services in Africa.",
+    "technologies": ["Federated Learning", "Homomorphic Encryption", "Data Governance", "Privacy Engineering"],
     "partners": ["École Polytechnique de Ouagadougou"],
-    "funding": "Internal research grant",
-    "image": "/images/project-malware-platform.svg"
+    "funding": "Seeking research and public-sector partners",
+    "image": "/images/project-sovereign-data-exchange.svg"
   },
   {
-    "title": "Education Analytics Observatory",
-    "status": "Active",
-    "description": "Dashboards and predictive models for supporting academic planning and student success.",
-    "technologies": ["Data Science", "Dashboards", "Forecasting"],
-    "partners": ["Academic Affairs Office"],
-    "funding": "Institutional innovation program",
-    "image": "/images/project-education-analytics.svg"
+    "title": "Mobile Money Trust & Fraud Intelligence Network",
+    "status": "Concept",
+    "description": "An AI-driven fraud and anomaly detection network for mobile money, building on field research into real fraud incidents in West Africa. The goal is a shared, blockchain-backed trust layer usable across multiple mobile money operators to protect underserved, internet-limited communities.",
+    "technologies": ["Machine Learning", "Blockchain", "Anomaly Detection", "Financial Inclusion"],
+    "partners": ["e-Infrastructure and e-Services for Developing Countries (EAI)"],
+    "funding": "Seeking industry and research partners",
+    "image": "/images/project-mobile-money-trust.svg"
   },
   {
-    "title": "Digital Campus Platform",
-    "status": "Prototype",
-    "description": "A modular digital service architecture for universities and engineering schools.",
-    "technologies": ["Next.js", "Cloud", "Identity", "APIs"],
-    "partners": ["EPO Digital Services"],
-    "funding": "Digital transformation initiative",
-    "image": "/images/project-digital-campus.svg"
+    "title": "West African Federated Threat Intelligence Network",
+    "status": "Concept",
+    "description": "A federated threat-intelligence initiative connecting universities, CERTs, and public institutions across West Africa, enabling them to share attack signatures and indicators of compromise without exposing raw institutional data. The ambition is to become the region's first federated cyber-defense network.",
+    "technologies": ["Federated Learning", "Threat Intelligence", "Cyber Threat Intelligence", "Cross-Institutional Security"],
+    "partners": ["Internet Society Burkina Faso Chapter (ISOC Burkina Faso)"],
+    "funding": "Seeking regional research partners",
+    "image": "/images/project-federated-threat-intel.svg"
   }
 ]

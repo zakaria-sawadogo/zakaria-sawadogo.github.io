@@ -5,7 +5,7 @@
     "image": "/images/research-cybersecurity.svg",
     "description": "Threat detection, secure software engineering, Android malware analysis, and privacy-aware data systems that keep digital infrastructures resilient and trustworthy.",
     "technologies": ["Security Analytics", "Threat Modeling", "Secure Coding", "Android Malware Analysis", "Reverse Engineering", "Privacy Engineering", "Data Governance", "Federated Learning"],
-    "projects": ["National Cybersecurity Capacity Toolkit", "Android Malware Intelligence Platform", "Privacy-First Data Exchange"],
+    "projects": ["National Cybersecurity Resilience Toolkit", "Sovereign Data Exchange for Public Services", "West African Federated Threat Intelligence Network"],
     "publications": ["Machine Learning for Lightweight Intrusion Detection", "Graph-Based Android Malware Classification", "Privacy-Aware Learning for Digital Public Services"]
   },
   {
@@ -14,7 +14,7 @@
     "image": "/images/research-ai-data.svg",
     "description": "Learning systems for prediction, decision support, and automation, paired with applied analytics, forecasting, and data platforms for education, health, and administration.",
     "technologies": ["Machine Learning", "Deep Learning", "MLOps", "Responsible AI", "Python", "Pandas", "Visualization", "Forecasting"],
-    "projects": ["AI Decision Support for Public Services", "Education Analytics Observatory"],
+    "projects": ["Mobile Money Trust & Fraud Intelligence Network", "AI Decision Support for Public Services"],
     "publications": ["Data-Driven Academic Planning in Emerging Universities"]
   },
   {
