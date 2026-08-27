@@ -22,7 +22,7 @@ function buildVCard() {
     `EMAIL;TYPE=INTERNET:${profile.email}`,
     `TEL;TYPE=CELL:${profile.phone}`,
     `ADR;TYPE=WORK:;;;Ouagadougou;;;Burkina Faso`,
-    "URL:https://zakaria-sawadogo.github.io/zs/",
+    "URL:https://zakaria-sawadogo.github.io/",
     "END:VCARD"
   ];
   return lines.join("\r\n");
