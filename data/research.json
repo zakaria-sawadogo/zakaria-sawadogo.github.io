@@ -5,7 +5,7 @@
     "image": "/images/research-cybersecurity.svg",
     "description": "Threat detection, secure software engineering, Android malware analysis, and privacy-aware data systems that keep digital infrastructures resilient and trustworthy.",
     "technologies": ["Security Analytics", "Threat Modeling", "Secure Coding", "Android Malware Analysis", "Reverse Engineering", "Privacy Engineering", "Data Governance", "Federated Learning"],
-    "projects": ["National Cybersecurity Resilience Toolkit", "Sovereign Data Exchange for Public Services", "West African Federated Threat Intelligence Network"],
+    "projects": ["National Cybersecurity Resilience Toolkit", "Sovereign Data Exchange for Public Services"],
     "publications": ["Machine Learning for Lightweight Intrusion Detection", "Graph-Based Android Malware Classification", "Privacy-Aware Learning for Digital Public Services"]
   },
   {

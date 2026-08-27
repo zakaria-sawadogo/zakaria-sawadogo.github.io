@@ -25,14 +25,5 @@
     "partners": ["e-Infrastructure and e-Services for Developing Countries (EAI)"],
     "funding": "Seeking industry and research partners",
     "image": "/images/project-mobile-money-trust.svg"
-  },
-  {
-    "title": "West African Federated Threat Intelligence Network",
-    "status": "Concept",
-    "description": "A federated threat-intelligence initiative connecting universities, CERTs, and public institutions across West Africa, enabling them to share attack signatures and indicators of compromise without exposing raw institutional data. The ambition is to become the region's first federated cyber-defense network.",
-    "technologies": ["Federated Learning", "Threat Intelligence", "Cyber Threat Intelligence", "Cross-Institutional Security"],
-    "partners": ["Internet Society Burkina Faso Chapter (ISOC Burkina Faso)"],
-    "funding": "Seeking regional research partners",
-    "image": "/images/project-federated-threat-intel.svg"
   }
 ]
