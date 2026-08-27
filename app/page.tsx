@@ -13,7 +13,7 @@ import service from "@/data/service.json";
 import { withBasePath } from "@/lib/paths";
 
 export default function HomePage() {
-  const featuredProjects = projects.slice(0, 4);
+  const featuredProjects = projects.slice(0, 2);
 
   return (
     <Container className="py-10 lg:py-14">
